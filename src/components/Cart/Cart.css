@@ -1,0 +1,13 @@
+.cart {
+  background: #2e383c;
+  color: white;
+  margin-top: 40px;
+  padding: 45px;
+  letter-spacing: 2px;
+}
+.cart-header {
+  background: white;
+  color: black;
+  padding: 6px;
+  border-radius: 20px;
+}

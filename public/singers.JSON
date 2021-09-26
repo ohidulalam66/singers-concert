@@ -150,7 +150,7 @@
         "image":"https://3.bp.blogspot.com/--f3mAVnKi9U/WoJrbBKWoYI/AAAAAAAACsM/2fw8xOXPOagqgGgHDn1gsBXdHJWQECVRgCK4BGAYYCw/s1600/Guru%2BRandhawa%2Bprofile%2Bfamily%252C%2Bbiodata%252C%2Bwiki%2BAge%252C%2BAffairs%252C%2Bwife%252C%2BHeight%252C%2BWeight%252C%2BBiography%252C%2BMovies%2Bgo%2Bprofile%2B1.jpg",
         "occupation":"Singer",
         "age":30,
-        "country":"Punjab, India[",
+        "country":"Punjab, India",
         "salary":43100
     },
     {   "id":21,
@@ -189,14 +189,14 @@
         "country":"Hokkaido, Japan",
         "salary":49300
     },
-    {   "id":25,
+    {   "id":26,
         "name":"Jon Bon Jovi",
         "image":"https://www.theknotnews.com/wp-content/uploads/2016/07/Bon-Jovi-Wedding.jpg","occupation":"Singer, song-writer, record-producer, philanthropist, actor",
         "age":59,
         "country":"New Jersey, U.S.",
         "salary":41300
     },
-    {   "id":25,
+    {   "id":27,
         "name":"Lauren Jauregui",
         "image":"https://www.usmagazine.com/wp-content/uploads/2020/04/Fifth-Harmony-Lauren-Jauregui-Apologizes-After-Sharing-an-Anti-Vax-Video.jpg?w=700&quality=86&strip=all",
         "occupation":"Singer, songwriter",

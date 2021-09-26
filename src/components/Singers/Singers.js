@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Singer from '../Singer/Singer';
 import './Singers.css';
 
@@ -7,6 +8,9 @@ const Singers = () => {
     // Use state is used due to change
     const [singers, setSingers] = useState([])
 
+    // Use state is used due to change cart
+    const [cart, setCart] = useState([]);
+
     // Use effects are used to load data
     const url = './singers.JSON';
     useEffect(() => {
@@ -14,6 +18,12 @@ const Singers = () => {
         .then(res => res.json())
         .then(data => setSingers(data))
     }, [])
+
+    // click cart btn handler
+    const handlerCarts = singer => {
+        const newAdd = [...cart, singer];
+        setCart(newAdd);
+    }
     return (
         <div className= "singers-container  pt-3">
             <div className= "singer-container">
@@ -23,12 +33,15 @@ const Singers = () => {
                 singers.map(singer => <Singer
                 key= {singer.id}
                 singer= {singer}
+                handlerCarts= {handlerCarts}
                 ></Singer>)
             }
             </div>
             </div>
             <div className= "cart-container">
-                <h1>cart-container</h1>
+                <Cart
+                cart= {cart}
+                ></Cart>
             </div>
         </div>
     );
