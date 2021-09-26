@@ -1,9 +1,11 @@
+/* card css style */
 .card-bg {
   background: #607174;
   color: white;
   letter-spacing: 2px;
 }
 
+/* card iamge css style */
 .card-img {
   width: 200px;
   height: 200px;

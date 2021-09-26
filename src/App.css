@@ -1,12 +1,7 @@
+/* google font css link */
 @import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap");
 
+/* google font css */
 * {
   font-family: "Gemunu Libre", sans-serif;
 }
-/* 
-background-image: url("/src/concert.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-*/

@@ -1,10 +1,13 @@
+/* header background color css style */
 .header {
   background: #d3eeeb;
 }
+/* header h1 css style */
 .header h1 {
   letter-spacing: 3px;
   font-size: 50px;
 }
+/* header h5 css style */
 .header h5 {
   letter-spacing: 6px;
   font-size: 25px;

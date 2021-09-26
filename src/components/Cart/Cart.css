@@ -1,8 +1,9 @@
 .cart {
   background: #2e383c;
   color: white;
+  width: 320px;
   margin-top: 40px;
-  padding: 45px;
+  padding: 10px;
   letter-spacing: 2px;
 }
 .cart-header {

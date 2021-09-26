@@ -3,6 +3,7 @@ import Cart from '../Cart/Cart';
 import Singer from '../Singer/Singer';
 import './Singers.css';
 
+// singers component
 const Singers = () => {
     
     // Use state is used due to change
@@ -11,8 +12,9 @@ const Singers = () => {
     // Use state is used due to change cart
     const [cart, setCart] = useState([]);
 
-    // Use effects are used to load data
+    // Use effect are used to load data
     const url = './singers.JSON';
+
     useEffect(() => {
         fetch(url)
         .then(res => res.json())
@@ -27,6 +29,7 @@ const Singers = () => {
     return (
         <div className= "singers-container  pt-3">
             <div className= "singer-container">
+
                 {/* Each singer was mapped to get */}
             <div className= "row p-3">
             {
@@ -38,6 +41,8 @@ const Singers = () => {
             }
             </div>
             </div>
+
+            {/* Used to count the number of each card */}
             <div className= "cart-container">
                 <Cart
                 cart= {cart}

@@ -9,7 +9,7 @@ const Header = () => {
             <h1 className= "fw-bold">International singers concert-2021</h1>
             </div>
             <h5>'I don't make music for eyes I make music for ears.'</h5>
-            <h1>Total Budget: $1125000</h1>
+            <h1 className= "text-danger">Total Budget: $1203710</h1>
         </div>
     );
 };
