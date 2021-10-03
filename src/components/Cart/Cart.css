@@ -1,3 +1,4 @@
+/* cart css style */
 .cart {
   background: #2e383c;
   color: white;
@@ -5,10 +6,26 @@
   margin-top: 40px;
   padding: 10px;
   letter-spacing: 2px;
+  border-radius: 25px;
 }
+
+/* cart header css style */
 .cart-header {
   background: white;
   color: black;
   padding: 6px;
   border-radius: 20px;
+}
+
+/* selected singer bg css style */
+.selected-bg {
+  background: #607174;
+}
+
+/* cart img css style */
+.cart-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50px;
+  object-fit: cover;
 }

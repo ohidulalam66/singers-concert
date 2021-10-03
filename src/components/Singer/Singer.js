@@ -13,7 +13,7 @@ const Singer = props => {
     // card data showing
     return (
         <div className= "col-md-4 g-4">
-            <div className="card rounded-3 card-bg h-100 p-3">
+            <div className="card card-bg h-100 p-3 card-hover">
                 <img src={image} className="card-img-top card-img rounded-circle mx-auto" alt="..."/>
                 <div className="card-body">
                     <h4><b>Name:</b> {name}</h4>
